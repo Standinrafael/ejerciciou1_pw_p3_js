@@ -10,6 +10,13 @@
    
 }
 
+.seccion{
+    background: rgb(243, 242, 242);
+    margin: auto;
+    width: 280px;
+    padding: 4px px;
+
+}
 
 #div1{
 
@@ -19,13 +26,49 @@
 
 #div2{
 
-    display: grid;
+    display: block;
     margin: auto;
     padding: 4px 4px;
     border: none 2px;
     width: 270px;
     background: rgb(243, 242, 242);
     margin-bottom: 20px;
+
+}
+
+#div3{
+    display: inline-block;
+    margin: auto;
+    padding: 4px 4px;
+    border: none 2px;
+    width: 270px;
+    background: rgb(243, 242, 242);
+    margin-bottom: 20px;
+}
+
+#div4{
+    display: block;
+    margin: auto;
+    padding: 4px 4px;
+    border: none 2px;
+    width: 270px;
+    background: rgb(243, 242, 242);
+    margin-bottom: 20px;
+
+}
+
+#div3 button{
+
+    width: 100px;
+    margin: 4px 7px;
+    border-radius: 6px;
+
+}
+#div4 button{
+
+    width: 250px;
+    margin: 4px 7px;
+    border-radius: 6px;
 
 }
 
