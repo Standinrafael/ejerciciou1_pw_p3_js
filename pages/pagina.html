@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+
+    <script src="../js/funcion.js"></script>
+</head>
+
+<body>
+    <section class="pantalla">
+      
+        <div id="div1">
+            <h3 id="textoinicial"> Seleccione el Pokemón correcto</h3>
+            <img id="imageninicial" src=" ../images/pnegro.jpg" alt="No se encontro la imagen">
+        </div>
+
+        <div id="div2">
+            <button onclick="opciones(this)" value="false">keldeo-ordinary</button>
+            <button onclick="opciones(this)" value="false"> drilbur</button>
+            <button onclick="opciones(this)" value="false">ninjask</button>
+            <button onclick="opciones(this)" value="true">excadril</button>
+            <h6 id="mensaje"></h6>
+            <button id="reiniciar" onclick="reiniciar()"> Reiniciar</button>
+        </div>
+        
+    </section>
+
+</body>
+
+</html>

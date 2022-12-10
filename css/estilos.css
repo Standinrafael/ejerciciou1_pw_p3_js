@@ -1,0 +1,51 @@
+.pantalla{
+        
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 15px 10px;
+    border: 1px dashed red;
+    background:rgb(250, 187, 106) ;
+    width: 500px;
+   
+}
+
+
+#div1{
+
+    margin-bottom: 10px;
+
+}
+
+#div2{
+
+    display: grid;
+    margin: auto;
+    padding: 4px 4px;
+    border: none 2px;
+    width: 270px;
+    background: rgb(243, 242, 242);
+    margin-bottom: 20px;
+
+}
+
+#div2 button{
+
+    width: 250px;
+    margin: 4px 7px;
+    border-radius: 6px;
+
+}
+
+
+#mensaje{
+
+    font-family: 'Times New Roman', Times, serif;
+    background:blue;
+    border: none 1px;
+    margin: 2px 11px;
+    color: white; 
+    
+}
+
+
